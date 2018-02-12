@@ -2,7 +2,8 @@ html,body{
 	display: flex;
 	flex-direction: column;
 	background-color: paleturquoise;
-	height: 120%;
+	height: 100%;
+	width: 100%;
 }
 #header{
 	color: #e0dfdc;
@@ -72,7 +73,7 @@ html,body{
 	margin-top: 5px;
 }
 .arrow{
-	margin-left: 100px;
+	margin-left: 120px;
 
 }
 #down-arrow{
@@ -86,12 +87,12 @@ html,body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	height: 80%;
+	height: 90%;
 }
 
 #image-slider .image-wrapper{	
 	width: 200px;
-	height: 100px;
+	height: 90px;
 	margin-left: 40px;
 	display: flex;
 	justify-content: center;	
