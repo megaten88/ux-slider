@@ -1,0 +1,118 @@
+html,body{
+	display: flex;
+	flex-direction: column;
+	background-color: paleturquoise;
+	height: 120%;
+}
+#header{
+	color: #e0dfdc;
+    background-color: #697787;
+    letter-spacing: 1em;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+	height: 70px;
+	width: 100%;
+	align-self: center; 
+	display: flex;
+	font-size:  20px;
+	justify-content: center;	
+	margin-top: -10px;
+	margin-left: 3px;
+}
+#header h1{
+	display: flex;
+	align-self: center;
+	justify-content: space-evenly
+}
+.content{
+	background-color: #0294A5;
+	width: 100.3%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+#left-content{
+	background-color: #04060F;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.image-wrapper{
+	background-color:#03353E;
+}
+#left-content .image-wrapper{
+	height: 80%;
+	width: 80%;
+	margin-left: 100px;
+	display: flex;
+	justify-content: center;
+}
+#right-content{
+	background: linear-gradient(to right,#0294A5,#A79C93,#0294A5);
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+}
+.arrow{
+	margin-left: 100px;
+
+}
+#down-arrow{
+	margin-top: 10px;
+}
+#up-arrow{
+	margin-bottom:10px;
+}
+#image-slider{
+	background: linear-gradient(to right,#0294A5,#A79C93,#0294A5);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 80%;
+}
+
+#image-slider .image-wrapper{	
+	width: 200px;
+	height: 100px;
+	margin-left: 40px;
+	display: flex;
+	justify-content: center;	
+}
+
+#image-slider .image-wrapper:hover{
+	background-color: blue;
+	box-shadow: 5px 5px #04060F;
+	z-index: 100;
+}
+
+.slider-img{
+	height: 90%;
+	width: 90%
+}
+
+img{
+	display: flex;
+	align-self: center; 
+}
+
+#center{
+	background-color: blue;
+}
